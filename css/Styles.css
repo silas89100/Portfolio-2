@@ -3,19 +3,19 @@
 }
 
 body {
-    background-color: white;       
+    background-color: white;
 }
 
 nav {
     background-color: white;
     padding: 10px;
-    position: fixed;     
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 2;
     display: flex;
-    align-items: center;         
+    justify-content: space-between;    
 }
 
 .logo {
@@ -26,18 +26,32 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
+
+}
+
+.logo3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo4 {
+    width: 100%;
+    text-align: center;
+}
+.espace {
+    margin-top: 30px;
 }
 
 .name {
-   margin-left: auto;
+    margin-left: auto;
     font-size: 1.5rem;
     margin-top: 0;
-    margin-bottom: 0;   
+    margin-bottom: 0;
 }
 
 main {
-    margin-top: 63px;    
+    margin-top: 63px;
 }
 
 .h1 {
@@ -46,7 +60,7 @@ main {
     text-align: center;
     border-bottom: solid 5px #FFEC40;
     border-top: solid 5px #FFEC40;
-}
+    }
 
 .p1 {
     background-color: black;
@@ -82,27 +96,27 @@ main {
     color: #FFEC40;
 }
 
-.Photo{
-    display: block;
-    margin: auto;    
-    border: solid 5px #FFEC40;
-}
-
-.photo1{   
-    display: block;
-    margin-right: auto; 
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border: solid 5px #FFEC40;
-}
-
-.Photo2{
+.Photo {
     display: block;
     margin: auto;
     border: solid 5px #FFEC40;
 }
 
-.photo3{
+.photo1 {
+    display: block;
+    margin-right: auto;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 5px #FFEC40;
+}
+
+.Photo2 {
+    display: block;
+    margin: auto;
+    border: solid 5px #FFEC40;
+}
+
+.photo3 {
     display: block;
     margin-left: auto;
     border: solid 5px #FFEC40;
@@ -110,10 +124,10 @@ main {
     border-bottom-left-radius: 50px;
 }
 
-.texte1{
+.texte1 {
     text-align: center;
     color: #FFEC40;
-    background-color: black;    
+    background-color: black;
     font-size: 1.5rem;
     border-radius: 10px;
     margin-left: 42px;

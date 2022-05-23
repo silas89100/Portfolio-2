@@ -3,67 +3,78 @@
 }
 
 body {
-    background-color: #EBECE6;
-    margin: 5px;
+    background-color: #EBECE6;       
 }
 
 nav {
     background-color: #EBECE6;
     padding: 10px;
-    position: fixed;
-    width: 408px;
-    height: 50px;
+    position: fixed;     
     top: 0;
     left: 0;
     right: 0;
     z-index: 2;
     display: flex;
-    align-items: center;    
+    align-items: center;         
 }
 
 .logo {
     width: 30px;
 }
 
+.logo2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .name {
    margin-left: auto;
     font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;   
 }
 
 main {
-    margin-top: 70px;
+    margin-top: 63px;    
 }
 
-h1 {
-    color: black;
+.h1 {
+    color: #FFEC40;
+    background-color: black;
     text-align: center;
+    border-bottom: solid 5px #FFEC40;
+    border-top: solid 5px #FFEC40;
 }
 
 .p1 {
+    background-color: black;
+    color: #FFEC40;
     text-align: center;
     font-size: 1.5rem;
     border-radius: 10px;
-    margin-left: 51px;
-    margin-right: 50px;
+    margin-left: 45px;
+    margin-right: 45px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
+    border: solid 5px #FFEC40;
 }
 
 .center {
     text-align: center;
 }
 
-.image1 {
-    /* width: 100%; */
-    
-    
-}
-
 .p2 {
     text-align: center;
     font-size: 1.5rem;
+    color: #FFEC40;
+    background-color: black;
+    border: solid 5px #FFEC40;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .decoration {
@@ -71,8 +82,45 @@ h1 {
     color: #FFEC40;
 }
 
+.Photo{
+    display: block;
+    margin: auto;    
+    border: solid 5px #FFEC40;
+}
+
 .photo1{   
-    text-align: center;
+    display: block;
+    margin-right: auto; 
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    border: solid 5px #FFEC40;
+}
+
+.Photo2{
+    display: block;
+    margin: auto;
+    border: solid 5px #FFEC40;
+}
+
+.photo3{
+    display: block;
+    margin-left: auto;
+    border: solid 5px #FFEC40;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.texte1{
+    text-align: center;
+    color: #FFEC40;
+    background-color: black;    
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-left: 42px;
+    margin-right: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: solid 5px #FFEC40;
 }

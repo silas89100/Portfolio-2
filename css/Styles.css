@@ -3,11 +3,11 @@
 }
 
 body {
-    background-color: #EBECE6;       
+    background-color: white;       
 }
 
 nav {
-    background-color: #EBECE6;
+    background-color: white;
     padding: 10px;
     position: fixed;     
     top: 0;

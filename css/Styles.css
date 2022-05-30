@@ -66,7 +66,7 @@ main {
     color: black;
     text-align: center;
     font-size: 1.5rem;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 45px;
     margin-right: 45px;
     padding-left: 10px;
@@ -74,10 +74,6 @@ main {
     padding-top: 3px;
     padding-bottom: 3px;
     border: solid 3px black;
-}
-
-.center {
-    text-align: center;
 }
 
 .p2 {
@@ -127,7 +123,7 @@ main {
     text-align: center;
     color: black;    
     font-size: 1.5rem;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 42px;
     margin-right: 42px;
     padding-left: 10px;
@@ -141,7 +137,7 @@ main {
     text-align: center;
     color: black;    
     font-size: 1.5rem;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 105px;
     margin-right: 105px;
     padding-left: 10px;
@@ -155,7 +151,7 @@ main {
     text-align: center;
     color: black;    
     font-size: 1.5rem;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 80px;
     margin-right: 80px;
     padding-left: 10px;
@@ -169,7 +165,7 @@ main {
     text-align: center;
     color: black;    
     font-size: 1.2rem;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 15px;
     margin-right: 15px;
     padding-left: 10px;
@@ -186,6 +182,7 @@ main {
     color: black;
     font-size: 1rem;
     border: solid 2px black;
+    border-radius: 3px;
 }
 
 form {
@@ -200,6 +197,7 @@ textarea {
     border: solid 2px black;
     height: 80px;
     margin-bottom: 10px;
+    border-radius: 3px;
 }
 
 button {
@@ -207,6 +205,7 @@ button {
     color: black;
     border: solid 2px black;
     margin-bottom: 10px;
+    border-radius: 3px;
 }
 
 .text-contact {
@@ -214,6 +213,7 @@ button {
     text-align: center;
     background-color: white;
     border: solid 2px black;
+    border-radius: 3px;
 }
 
 .contact {
@@ -281,31 +281,6 @@ footer {
         background-color: black;
         text-align: center;        
         font-size: 3rem;
-    }
-
-    .p1 {        
-        color: black;
-        text-align: center;
-        font-size: 1.5rem;
-        border-radius: 10px;
-        margin-left: 700px;
-        margin-right: 700px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        border: solid 5px black;
-        font-size: 2rem;
-    }
-
-    .p2 {
-        text-align: center;
-        font-size: 1.5rem;
-        color: black;        
-        border: solid 3px black;
-        margin-right: 750px;
-        margin-left: 750px;
-    }
-
+    }   
     
 }

@@ -49,7 +49,7 @@ nav {
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
-    color: #4257CA;
+    color: black;
 }
 
 main {
@@ -57,16 +57,13 @@ main {
 }
 
 .h1 {
-    color: #FFEC40;
-    background-color: #4257CA;
-    text-align: center;
-    border-bottom: solid 3px #FFEC40;
-    border-top: solid 3px #FFEC40;
+    color: white;
+    background-color: black;
+    text-align: center;    
 }
 
-.p1 {
-    background-color: #4257CA;
-    color: #FFEC40;
+.p1 {    
+    color: black;
     text-align: center;
     font-size: 1.5rem;
     border-radius: 10px;
@@ -76,7 +73,7 @@ main {
     padding-right: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
-    border: solid 3px #FFEC40;
+    border: solid 3px black;
 }
 
 .center {
@@ -86,22 +83,22 @@ main {
 .p2 {
     text-align: center;
     font-size: 1.5rem;
-    color: #FFEC40;
-    background-color: #4257CA;
-    border: solid 3px #FFEC40;
+    color: black;
+    background-color: white;
+    border: solid 3px black;
     margin-right: 100px;
     margin-left: 100px;
 }
 
-.decoration {
+/* .decoration {
     text-decoration: none;
     color: #FFEC40;
-}
+} */
 
 .Photo {
     display: block;
     margin: auto;
-    border: solid 3px #FFEC40;
+    border: solid 3px black;
 }
 
 .photo1 {
@@ -109,27 +106,26 @@ main {
     margin-right: auto;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    border: solid 3px #FFEC40;
+    border: solid 3px black;
 }
 
 .Photo2 {
     display: block;
     margin: auto;
-    border: solid 3px #FFEC40;
+    border: solid 3px black;
 }
 
 .photo3 {
     display: block;
     margin-left: auto;
-    border: solid 3px #FFEC40;
+    border: solid 3px black;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
 }
 
 .texte1 {
     text-align: center;
-    color: #FFEC40;
-    background-color: #4257CA;
+    color: black;    
     font-size: 1.5rem;
     border-radius: 10px;
     margin-left: 42px;
@@ -138,13 +134,12 @@ main {
     padding-right: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
-    border: solid 3px #FFEC40;
+    border: solid 3px black;
 }
 
 .texte2 {
     text-align: center;
-    color: #FFEC40;
-    background-color: #4257CA;
+    color: black;    
     font-size: 1.5rem;
     border-radius: 10px;
     margin-left: 105px;
@@ -153,13 +148,12 @@ main {
     padding-right: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
-    border: solid 3px #FFEC40;
+    border: solid 3px black;
 }
 
 .texte3 {
     text-align: center;
-    color: #FFEC40;
-    background-color: #4257CA;
+    color: black;    
     font-size: 1.5rem;
     border-radius: 10px;
     margin-left: 80px;
@@ -168,13 +162,12 @@ main {
     padding-right: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
-    border: solid 3px #FFEC40;
+    border: solid 3px black;
 }
 
 .info {
     text-align: center;
-    color: #FFEC40;
-    background-color: #4257CA;
+    color: black;    
     font-size: 1.2rem;
     border-radius: 10px;
     margin-left: 15px;
@@ -183,16 +176,16 @@ main {
     padding-right: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
-    border: solid 3px #FFEC40;
+    border: solid 3px black;
     margin-bottom: 10px;
 }
 
 .formulaire {
     width: 100%;
-    background-color: #4257CA;
-    color: #FFEC40;
+    background-color: white;
+    color: black;
     font-size: 1rem;
-    border: solid 2px #FFEC40;
+    border: solid 2px black;
 }
 
 form {
@@ -202,29 +195,29 @@ form {
 
 textarea {
     width: 100%;
-    background-color: #4257CA;
-    color: #FFEC40;
-    border: solid 2px #FFEC40;
+    background-color: white;
+    color: black;
+    border: solid 2px black;
     height: 80px;
     margin-bottom: 10px;
 }
 
 button {
-    background-color: #4257CA;
-    color: #FFEC40;
-    border: solid 2px #FFEC40;
+    background-color: white;
+    color: black;
+    border: solid 2px black;
     margin-bottom: 10px;
 }
 
 .text-contact {
-    color: #FFEC40;
+    color: black;
     text-align: center;
-    background-color: #4257CA;
-    border: solid 2px #FFEC40;
+    background-color: white;
+    border: solid 2px black;
 }
 
 .contact {
-    color: #4257CA;
+    color: black;
 }
 
 .droite {
@@ -241,26 +234,78 @@ input[type=checkbox] {
 input[type=checkbox] {
     height: 12px;
     width: 12px;
-    background: #FFEC40;
+    background: white;
+    border: solid 2px black;
     
 }
 
 input[type="checkbox"]:checked {
-    background: white;
+    background: black;
     margin: 0px;
 }
 
 footer {
-    background-color: #4257CA;
+    background-color: black;
 }
 
 .text4 {
-    color: #FFEC40;
+    color: white;
     text-align: center;
 }
 
-footer {
-    border-top: solid 3px #FFEC40;
-    border-bottom: solid 3px #FFEC40;
-}
+@media screen and (min-width: 1000px) {
+    :root {
+        font-size: 16px;
+    }
 
+    main {
+        margin-top: 102px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .name {
+        margin-left: auto;
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: black;
+        margin-top: 16px;
+        
+    }
+
+    .h1 {
+        color: white;
+        background-color: black;
+        text-align: center;        
+        font-size: 3rem;
+    }
+
+    .p1 {        
+        color: black;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        margin-left: 700px;
+        margin-right: 700px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border: solid 5px black;
+        font-size: 2rem;
+    }
+
+    .p2 {
+        text-align: center;
+        font-size: 1.5rem;
+        color: black;        
+        border: solid 3px black;
+        margin-right: 750px;
+        margin-left: 750px;
+    }
+
+    
+}
